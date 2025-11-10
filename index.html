@@ -9,12 +9,17 @@
 <body>
 
     <header>
-        <h1>Bài trắc nghiệm An toàn thông tin & Mạng</h1>
+        <h1>Trắc nghiệm An toàn mạng máy tính</h1>
         <p id="progress-text">Đang tải câu hỏi...</p>
     </header>
 
     <main>
         <div id="quiz-container">
+            <div id="score-container" style="display: none;">
+                <h2>số câu đúng</h2>
+                <p id="final-score"></p>
+                
+            </div>
             <div id="question-card">
                 <h2 id="question-text"></h2>
                 <div id="options-container"></div>
@@ -37,11 +42,15 @@
             const feedback = document.getElementById('feedback');
             const prevBtn = document.getElementById('prev-btn');
             const nextBtn = document.getElementById('next-btn');
-
+            const scoreContainer = document.getElementById('score-container');
+            const finalScore = document.getElementById('final-score');
             // Biến trạng thái
             let allQuestions = [];
             let currentQuestionIndex = 0;
             let answered = false; // Biến cờ để xem câu hiện tại đã được trả lời chưa
+            
+            //số câu hỏi trả lời đúng
+            let correctAnswersCount = 0;
 
             // Tải dữ liệu câu hỏi
             fetch('questions.json')
@@ -121,6 +130,9 @@
                     selectedButton.classList.add('correct');
                     feedback.textContent = '✅ Chính xác!';
                     feedback.classList.add('correct');
+                    correctAnswersCount++; // Tăng số câu trả lời đúng
+                    finalScore.textContent = `Bạn đã trả lời đúng ${correctAnswersCount}/${allQuestions.length} câu hỏi.`;
+
                 } else {
                     selectedButton.classList.add('incorrect');
                     feedback.innerHTML = `❌ Sai. Đáp án đúng là: <strong>${correctAnswer}</strong>`;
