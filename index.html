@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trắc nghiệm An ninh mạng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bài trắc nghiệm An toàn thông tin & Mạng</h1>
+        <p id="progress-text">Đang tải câu hỏi...</p>
+    </header>
+
+    <main>
+        <div id="quiz-container">
+            <div id="question-card">
+                <h2 id="question-text"></h2>
+                <div id="options-container"></div>
+                <div id="feedback"></div>
+            </div>
+
+            <div id="navigation-bar">
+                <button id="prev-btn" class="nav-btn">⬅️ Trở lại</button>
+                <button id="next-btn" class="nav-btn">Câu tiếp ➡️</button>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Các đối tượng DOM
+            const progressText = document.getElementById('progress-text');
+            const questionText = document.getElementById('question-text');
+            const optionsContainer = document.getElementById('options-container');
+            const feedback = document.getElementById('feedback');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+
+            // Biến trạng thái
+            let allQuestions = [];
+            let currentQuestionIndex = 0;
+            let answered = false; // Biến cờ để xem câu hiện tại đã được trả lời chưa
+
+            // Tải dữ liệu câu hỏi
+            fetch('questions.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Không tìm thấy tệp questions.json');
+                    }
+                    return response.json();
+                })
+                .then(questions => {
+                    allQuestions = questions;
+                    // Kiểm tra xem có câu hỏi nào không
+                    if (allQuestions.length > 0) {
+                        showQuestion(currentQuestionIndex);
+                    } else {
+                        progressText.textContent = "Không có câu hỏi nào được tải.";
+                    }
+                })
+                .catch(error => {
+                    console.error('Lỗi khi tải JSON:', error);
+                    progressText.textContent = 'Không thể tải được câu hỏi. Vui lòng kiểm tra lại tệp questions.json và đảm bảo bạn đang chạy trên một máy chủ (ví dụ: Live Server).';
+                    document.getElementById('question-card').style.display = 'none';
+                    document.getElementById('navigation-bar').style.display = 'none';
+                });
+
+            // Hàm hiển thị câu hỏi
+            function showQuestion(index) {
+                // Lấy dữ liệu câu hỏi hiện tại
+                const q = allQuestions[index];
+                if (!q) return;
+
+                // Đặt lại trạng thái
+                answered = false;
+                feedback.style.display = 'none';
+                feedback.className = 'feedback';
+                optionsContainer.innerHTML = ''; // Xóa các lựa chọn cũ
+
+                // Cập nhật nội dung
+                progressText.textContent = `Câu ${index + 1} / ${allQuestions.length}`;
+                questionText.textContent = q.question;
+
+                // Tạo các nút lựa chọn
+                q.options.forEach(option => {
+                    const optionButton = document.createElement('button');
+                    optionButton.className = 'option';
+                    optionButton.textContent = option;
+                    
+                    optionButton.addEventListener('click', () => {
+                        handleAnswer(optionButton, option, q.answer);
+                    });
+
+                    optionsContainer.appendChild(optionButton);
+                });
+
+                // Cập nhật trạng thái nút điều hướng
+                updateNavButtons();
+            }
+
+            // Hàm xử lý khi chọn đáp án
+            function handleAnswer(selectedButton, selectedAnswer, correctAnswer) {
+                if (answered) return; // Nếu đã trả lời rồi thì không làm gì cả
+                answered = true;
+
+                const buttons = optionsContainer.getElementsByClassName('option');
+                
+                // Vô hiệu hóa tất cả các nút
+                Array.from(buttons).forEach(button => {
+                    button.disabled = true;
+                    // Tìm và tô sáng đáp án đúng
+                    if (button.textContent === correctAnswer) {
+                        button.classList.add('correct');
+                    }
+                });
+
+                // Kiểm tra đáp án
+                if (selectedAnswer === correctAnswer) {
+                    selectedButton.classList.add('correct');
+                    feedback.textContent = '✅ Chính xác!';
+                    feedback.classList.add('correct');
+                } else {
+                    selectedButton.classList.add('incorrect');
+                    feedback.innerHTML = `❌ Sai. Đáp án đúng là: <strong>${correctAnswer}</strong>`;
+                    feedback.classList.add('incorrect');
+                }
+
+                feedback.style.display = 'block';
+                updateNavButtons(); // Cập nhật lại nút (để kích hoạt nút "Next")
+            }
+
+            // Hàm cập nhật trạng thái các nút "Next" và "Prev"
+            function updateNavButtons() {
+                // Nút "Trở lại"
+                if (currentQuestionIndex === 0) {
+                    prevBtn.style.visibility = 'hidden'; // Ẩn ở câu đầu tiên
+                } else {
+                    prevBtn.style.visibility = 'visible';
+                }
+
+                // Nút "Câu tiếp"
+                if (currentQuestionIndex === allQuestions.length - 1) {
+                    nextBtn.style.visibility = 'hidden'; // Ẩn ở câu cuối cùng
+                } else {
+                    nextBtn.style.visibility = 'visible';
+                }
+
+                // Chỉ cho phép "Câu tiếp" nếu đã trả lời
+                nextBtn.disabled = !answered;
+            }
+
+            // Gán sự kiện cho các nút điều hướng
+            prevBtn.addEventListener('click', () => {
+                if (currentQuestionIndex > 0) {
+                    currentQuestionIndex--;
+                    showQuestion(currentQuestionIndex);
+                }
+            });
+
+            nextBtn.addEventListener('click', () => {
+                if (currentQuestionIndex < allQuestions.length - 1) {
+                    currentQuestionIndex++;
+                    showQuestion(currentQuestionIndex);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

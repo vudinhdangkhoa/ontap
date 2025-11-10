@@ -1,0 +1,1201 @@
+[
+  {
+    "question": "Thành phần nào sau đây chịu trách nhiệm chuyển đổi địa chỉ ảo thành địa chỉ thực:",
+    "options": [
+      "Memory Management Unit",
+      "Memory Unit",
+      "Rom Management Unit",
+      "HDD Management Unit"
+    ],
+    "answer": "Memory Management Unit"
+  },
+  {
+    "question": "Điều nào là một ví dụ về tấn công chủ động (active attack)?",
+    "options": [
+      "A. Nghe lén thông tin (Sniffing)",
+      "B. Quét port mạng (Port scanning)",
+      "C. Tấn công từ chối dịch vụ (DDoS)",
+      "D. Giám sát lưu lượng (traffic monitoring)"
+    ],
+    "answer": "C. Tấn công từ chối dịch vụ (DDoS)"
+  },
+  {
+    "question": "Trojan lây lan bằng cách nào?",
+    "options": [
+      "A. Phần mềm miễn phí.",
+      "B. Download tập tin, trò  chơi, screensaver từ  internet…",
+      "C. Chia sẻ file.",
+      "D. Phần mềm miễn phí, Download tập tin, từ  internet, chia sẻ file."
+    ],
+    "answer": "D. Phần mềm miễn phí, Download tập tin, từ  internet, chia sẻ file."
+  },
+  {
+    "question": "Loại mã độc nào sau đây có khả năng tự nhân bản và lây lan sang các tệp tin hoặc chương trình khác trong cùng một máy tính, thường cần sự tương tác của người dùng để kích hoạt (ví dụ: mở một tệp đính kèm)?",
+    "options": [
+      "A. Sâu máy tính (Worm)",
+      "B. Virus máy tính (Computer Virus)",
+      "C. Trojan Horse",
+      "D. Spyware"
+    ],
+    "answer": "B. Virus máy tính (Computer Virus)"
+  },
+  {
+    "question": "Đặc điểm của lỗ hổng \"Buffer Overflow\" là gì và nó có thể dẫn đến hậu quả nào?",
+    "options": [
+      "A. Xảy ra khi dữ liệu đầu vào không được lọc ký tự đặc biệt, dẫn đến thực thi lệnh tùy ý; hậu quả là mất kiểm soát máy chủ.",
+      "B. Xảy ra khi một chương trình ghi dữ liệu vượt quá giới hạn của bộ đệm được cấp phát, có thể ghi đè lên vùng nhớ liền kề; hậu quả có thể là thực thi mã tùy ý hoặc làm sập chương trình.",
+      "C. Xảy ra khi mật khẩu được lưu trữ dưới dạng văn bản rõ, dễ bị đánh cắp; hậu quả là lộ thông tin đăng nhập.",
+      "D. Xảy ra khi không có xác thực đa yếu tố, dễ bị tấn công đoán mật khẩu; hậu quả là chiếm quyền truy cập tài khoản."
+    ],
+    "answer": "B. Xảy ra khi một chương trình ghi dữ liệu vượt quá giới hạn của bộ đệm được cấp phát, có thể ghi đè lên vùng nhớ liền kề; hậu quả có thể là thực thi mã tùy ý hoặc làm sập chương trình."
+  },
+  {
+    "question": "Để thực hiện cuộc tấn công Trojan-Backdoor. Hacker sẽ thực hiện",
+    "options": [
+      "A. Trojan Server được cài trên máy nạn nhân – Hacker điều khiển bằng Trojan Client",
+      "B. Hacker dùng Trojan Client, tấn công vào máy nạn nhân qua các port nhận được từ kỹ thuật Scanning",
+      "C. Hacker dùng Trojan Server, tấn công vào máy nạn nhân qua các port nhận đươc từ kỹ thuật Scanning",
+      "D. Trojan Client được cài trên máy nạn nhân – Hacker điều khiển bằng Trojan Server"
+    ],
+    "answer": "A. Trojan Server được cài trên máy nạn nhân – Hacker điều khiển bằng Trojan Client"
+  },
+  {
+    "question": "Điều nào trong số này KHÔNG phải là lý do tại sao việc bảo mật các ứng dụng web phía máy chủ là khó?",
+    "options": [
+      "A. Các bộ vi xử lý trên máy khách nhỏ hơn trên các máy chủ web và do đó chúng dễ bảo vệ hơn",
+      "B. Mặc dù các thiết bị bảo mật mạng truyền thống có thể chặn các cuộc tấn công mạng truyền thống, chúng không thể luôn chặn các cuộc tấn công ứng dụng web. Nhiều cuộc tấn công ứng dụng web khai thác lỗ hổng chưa biết trước đó",
+      "C. Bằng cách thiết kế các ứng dụng web phía máy chủ động, chấp nhận đầu vào của người dùng có thể chứa mã độc",
+      "D. Khả năng tiếp cận của người dùng"
+    ],
+    "answer": "A. Các bộ vi xử lý trên máy khách nhỏ hơn trên các máy chủ web và do đó chúng dễ bảo vệ hơn"
+  },
+  {
+    "question": "Khi một hacker cố gắng tấn công một máy chủ qua Internet nó được gọi là loại tấn công?",
+    "options": [
+      "A. Tấn công tấn công nội.",
+      "B. Tấn công truy cập vật lý",
+      "C. Truy cập địa phương",
+      "D. Tấn công từ xa"
+    ],
+    "answer": "D. Tấn công từ xa"
+  },
+  {
+    "question": "Kiểu tấn công nào sửa đổi các trường có chứa các đặc tính khác nhau của dữ liệu đang được truyền đi?",
+    "options": [
+      "A. HTTP header",
+      "B. XML manipulation",
+      "C. HTML packet",
+      "D. SQL injection"
+    ],
+    "answer": "A. HTTP header"
+  },
+  {
+    "question": "Đặc điểm chính để phân biệt \"Sâu máy tính\" (Worm) với \"Virus máy tính\" là gì?",
+    "options": [
+      "A. Sâu máy tính luôn mã hóa dữ liệu, còn virus thì không.",
+      "B. Sâu máy tính có khả năng tự nhân bản và lây lan qua mạng máy tính mà không cần sự tương tác của người dùng hoặc tệp tin chủ.",
+      "C. Virus luôn hiển thị thông báo cho người dùng biết, còn sâu thì hoạt động ẩn.",
+      "D. Sâu máy tính chỉ tấn công hệ điều hành Windows, còn virus tấn công nhiều hệ điều hành."
+    ],
+    "answer": "B. Sâu máy tính có khả năng tự nhân bản và lây lan qua mạng máy tính mà không cần sự tương tác của người dùng hoặc tệp tin chủ."
+  },
+  {
+    "question": "Nguy cơ nào hiện nay được coi là phổ biến nhất đối với an toàn thông tin mạng?",
+    "options": [
+      "A. Tấn công phishing và mã độc tống tiền (ransomware)",
+      "B. Tấn công từ chối dịch vụ (DDoS)",
+      "C. Virus máy tính.",
+      "D. Lỗi phần cứng máy tính"
+    ],
+    "answer": "A. Tấn công phishing và mã độc tống tiền (ransomware)"
+  },
+  {
+    "question": "Chế độ “Hibernate” trên windowXP/windows 7/windows 8/windows 10 sẽ thực hiện:",
+    "options": [
+      "Chế độ ngủ đông.",
+      "Chế độ ngủ tạm thời",
+      "Tắt máy có thời gian",
+      "Không có đáp án"
+    ],
+    "answer": "Chế độ ngủ đông."
+  },
+  {
+    "question": "Hệ thống ghi nhận nhiều truy cập trái phép từ một địa chỉ IP nước ngoài vào máy chủ web. Anh/chị nên áp dụng giải pháp nào trước tiên?",
+    "options": [
+      "A. Cài lại hệ điều hành máy chủ",
+      "B. Cập nhật driver mạng",
+      "C. Cấu hình firewall chặn IP và kiểm tra lỗ hổng",
+      "D. Gỡ bỏ dịch vụ web"
+    ],
+    "answer": "C. Cấu hình firewall chặn IP và kiểm tra lỗ hổng"
+  },
+  {
+    "question": "Lỗ hổng \"Race Condition\" xảy ra khi nào?",
+    "options": [
+      "A. Khi hai tiến trình cùng cố gắng ghi vào một tệp nhật ký cùng một lúc.",
+      "B. Khi một ứng dụng web không kiểm tra kỹ lưỡng dữ liệu đầu vào từ người dùng, cho phép chèn mã độc.",
+      "C. Khi kết quả của một hoạt động phụ thuộc vào chuỗi hoặc thời gian không thể kiểm soát của các sự kiện khác.",
+      "D. Khi khóa mã hóa được sửC. Khi kết quả của một hoạt động phụ thuộc vào chuỗi hoặc thời gian không thể kiểm soát của các sự kiện khác.dụng quá yếu và dễ bị bẻ gãy."
+    ],
+    "answer": "C. Khi kết quả của một hoạt động phụ thuộc vào chuỗi hoặc thời gian không thể kiểm soát của các sự kiện khác."
+  },
+  {
+    "question": "Công cụ \"Configuration Management Database\" (CMDB) và các công cụ kiểm tra tuân thủ cấu hình đóng vai trò gì trong việc giảm thiểu lỗ hổng?",
+    "options": [
+      "A. CMDB chỉ lưu trữ thông tin về phần cứng.",
+      "B. Chúng giúp duy trì một kho lưu trữ thông tin chính xác về tất cả các thành phần công nghệ thông tin (CIs) và mối quan hệ giữa chúng (CMDB), đồng thời đảm bảo rằng các hệ thống được cấu hình theo các tiêu chuẩn bảo mật và chính sách đã định, từ đó giảm thiểu các lỗ hổng do cấu hình sai.",
+      "C. Công cụ kiểm tra tuân thủ chỉ hoạt động với các hệ thống trên nền tảng đám mây.",
+      "D. Chúng chỉ dùng để theo dõi giấy phép phần mềm."
+    ],
+    "answer":"B. Chúng giúp duy trì một kho lưu trữ thông tin chính xác về tất cả các thành phần công nghệ thông tin (CIs) và mối quan hệ giữa chúng (CMDB), đồng thời đảm bảo rằng các hệ thống được cấu hình theo các tiêu chuẩn bảo mật và chính sách đã định, từ đó giảm thiểu các lỗ hổng do cấu hình sai."
+  },
+  {
+    "question": "Tuyên bố nào là chính xác về lý do tại sao các thiết bị bảo mật mạng truyền thống không thể được sử dụng để chặn các cuộc tấn công ứng dụng web?",
+    "options": [
+      "A. Các thiết bị bảo mật mạng truyền thống bỏ qua nội dung lưu lượng HTTP, là phương tiện tấn công ứng dụng web",
+      "B. Các cuộc tấn công ứng dụng web sử dụng các trình duyệt web không thể được điều khiển trên máy tính cục bộ",
+      "C. Các thiết bị bảo mật mạng không thể ngăn chặn các cuộc tấn công từ tài nguyên web",
+      "D. Tính chất phức tạp của TCP / IP cho phép quá nhiều lần ping bị chặn"
+    ],
+    "answer": "A. Các thiết bị bảo mật mạng truyền thống bỏ qua nội dung lưu lượng HTTP, là phương tiện tấn công ứng dụng web"
+  },
+  {
+    "question": "Chọn một kỹ thuật tấn công phổ biến nhất trên Web",
+    "options": [
+      "A. Từ chối dịch vụ (DoS)",
+      "B. Chiếm hữu phiên làm việc",
+      "C. Tràn bộ đệm",
+      "D. Chèn câu truy vấn SQL"
+    ],
+    "answer": "D. Chèn câu truy vấn SQL"
+  },
+  {
+    "question": "\"Mã độc\" (Malware) là thuật ngữ chung để chỉ điều gì?",
+    "options": [
+      "A. Bất kỳ lỗi nào trong phần mềm máy tính.",
+      "B. Các chương trình được thiết kế để bảo vệ máy tính khỏi virus.",
+      "C. Phần mềm được tạo ra với mục đích gây hại cho hệ thống máy tính, đánh cắp dữ liệu hoặc thực hiện các hành động không mong muốn.",
+      "D. Các tệp tin tạm thời được tạo ra bởi hệ điều hành."
+    ],
+    "answer": "C. Phần mềm được tạo ra với mục đích gây hại cho hệ thống máy tính, đánh cắp dữ liệu hoặc thực hiện các hành động không mong muốn."
+  },
+  {
+    "question": "Stateful Inspection firewall sử dụng cơ chế nào để quản lý lưu lượng mạng?",
+    "options": [
+      "A. Proxy server",
+      "B. Session table",
+      "C. Web cache",
+      "D. Log server"
+    ],
+    "answer": "B. Session table"
+  },
+  {
+    "question": "Kẻ tấn công sử dụng Buffer overflow attacks để làm gì?",
+    "options": [
+      "A. Gửi nhiều lưu lượng truy cập đến một địa chỉ mạng hơn mức các lập trình viên đã xây dựng để hệ thống xử lý.",
+      "B. Xóa tập tin chữ ký tràn bộ đệm",
+      "C. Làm hỏng nhân để máy tính không thể khởi động lại",
+      "D. Đặt virus vào nhân (kernel)"
+    ],
+    "answer": "A. Gửi nhiều lưu lượng truy cập đến một địa chỉ mạng hơn mức các lập trình viên đã xây dựng để hệ thống xử lý."
+  },
+  {
+    "question": "Lý do chính khiến các cuộc tấn công mạng ngày càng tăng là gì?",
+    "options": [
+      "A. Sự phổ biến rộng rãi của mạng xã hội",
+      "B. Sự phát triển mạnh của công nghệ và sự phụ thuộc vào internet",
+      "C. Hệ thống bảo mật yếu kém",
+      "D. Người dùng ngày càng cẩn trọng hơn"
+    ],
+    "answer": "B. Sự phát triển mạnh của công nghệ và sự phụ thuộc vào internet"
+  },
+  {
+    "question": "Đâu không phải là đặc điểm của thuật giải SJF (Shortest Job First)?",
+    "options": [
+      "a. Non-preemptive (độc quyền)",
+      "b. Dễ dàng dự báo thời điểm phục vụ tiến trình",
+      "c. Tiến trình dài có nguy cơ không kết thúc được.",
+      "d. Thời gian chờ trung bình nhỏ."
+    ],
+    "answer": "b. Dễ dàng dự báo thời điểm phục vụ tiến trình"
+  },
+  {
+    "question": "Cam kết xác thực, người gửi sẽ không thể chối bỏ những gì mình đã gửi là thuộc tính nào sau đây",
+    "options": [
+      "A. Chống chối bỏ (Non-Repudiation)",
+      "B. Từ bỏ/ Chối bỏ (repudiation)",
+      "C. Tính toàn vẹn (integrity)",
+      "D. Tính khả dụng (availability)"
+    ],
+    "answer": "A. Chống chối bỏ (Non-Repudiation)"
+  },
+  {
+    "question": "Hacker mũ trắng là ai?",
+    "options": [
+      "A. Chuyên gia bảo mật",
+      "B. Cựu Hacker mũ đen",
+      "C. Cựu Hacker mũ xám",
+      "D. Hacker hiểm độc"
+    ],
+    "answer": "A. Chuyên gia bảo mật"
+  },
+  {
+    "question": "Hacker sẽ chọn loại tấn công nào sau đây để khai thác giới hạn lưu trữ của số nguyên?",
+    "options": [
+      "A. Integer overflow",
+      "B. Buffer overflow",
+      "C. Real number",
+      "D. Heap size"
+    ],
+    "answer": "A. Integer overflow"
+  },
+  {
+    "question": "Trong thiết kế và xây dựng hệ thống, nguyên lí Tập trung là của hệ thống nào?",
+    "options": [
+      "a. Windows",
+      "b. UNIX",
+      "c. IBM OS",
+      "d. Cả 3 đều đúng."
+    ],
+    "answer": "c. IBM OS"
+  },
+  {
+    "question": "Key Logger Attack là gì? Chọn ý sai",
+    "options": [
+      "A. Là hình thức tấn công mật khẩu mà hacker lưu lại lịch sử các phím mà nạn nhân đã gõ, trong đó bao gồm cả mật khẩu, ID.",
+      "B. Một loại công nghệ giám sát được thiết kế để theo dõi và ghi lại mọi phím bấm mà người dùng đã gõ trên bàn phím của thiết bị.",
+      "C. Có thể dùng thiết bị phần cứng hoặc  phần mềm",
+      "D. Chỉ là một phần mềm độc hại"
+    ],
+    "answer": "D. Chỉ là một phần mềm độc hại"
+  },
+  {
+    "question": "Lý do chính cho việc mã hóa file là....",
+    "options": [
+      "Đảm bảo an toàn cho việc truyền tải.",
+      "Đảm bảo cho người dùng khi sử dụng",
+      "Cho người khác không thấy file của chủ PC",
+      "Không có lý do"
+    ],
+    "answer": "Cho người khác không thấy file của chủ PC"
+  },
+  {
+    "question": "Nguy cơ nào hiện nay được coi là phổ biến nhất đối với an toàn thông tin mạng?",
+    "options": [
+      "A. Virus máy tính",
+      "B. Tấn công từ chối dịch vụ (DDoS)",
+      "C. Tấn công phishing và mã độc tống tiền (ransomware)",
+      "D. Lỗi phần cứng máy tính"
+    ],
+    "answer": "C. Tấn công phishing và mã độc tống tiền (ransomware)"
+  },
+  {
+    "question": "Hệ thống Phát hiện Xâm nhập dựa trên Máy chủ (HIDS - Host-based Intrusion Detection System) tập trung vào việc giám sát những gì?",
+    "options": [
+      "A. Chỉ giám sát lưu lượng mạng đến và đi từ máy chủ đó.",
+      "B. Các hoạt động và sự kiện xảy ra bên trong một máy chủ cụ thể, chẳng hạn như thay đổi tệp hệ thống, tiến trình đáng ngờ, và các tệp nhật ký.",
+      "C. Hoạt động của các thiết bị mạng như router và switch.",
+      "D. Các cuộc tấn công từ chối dịch vụ (DDoS) trên toàn mạng."
+    ],
+    "answer": "B. Các hoạt động và sự kiện xảy ra bên trong một máy chủ cụ thể, chẳng hạn như thay đổi tệp hệ thống, tiến trình đáng ngờ, và các tệp nhật ký."
+  },
+  {
+    "question": "Tài nguyên của hệ thống bao gồm:",
+    "options": [
+      "a. Bộ nhớ, bộ xử lí, bộ nhớ ngoài, máy in.",
+      "b. Bộ nhớ, bộ xử lí, hệ điều hành, các thiết bị vào ra.",
+      "c. Bộ nhớ, bộ xử lí và các thiết bị vào ra.",
+      "d. Cả 3 đều sai."
+    ],
+    "answer": "c. Bộ nhớ, bộ xử lí và các thiết bị vào ra."
+  },
+  {
+    "question": "Kỹ thuật Zero-day attack liên quan trực tiếp đến yếu tố nào sau đây?",
+    "options": [
+      "A.Tấn công DDoS.",
+      "B. Sử dụng mã hóa dữ liệu",
+      "C. Khai thác lỗ hổng chưa được vá",
+      "D. Dò quét port"
+    ],
+    "answer": "C. Khai thác lỗ hổng chưa được vá"
+  },
+  {
+    "question": "Lý do tốt nhất để thực hiện một chính sách bảo mật là gì?",
+    "options": [
+      "A. Tăng an ninh",
+      "B. Nó làm cho khó hơn việc thi hành bảo mật",
+      "C. Hạn chế quyền hạn của nhân viên",
+      "D. Làm giảm an ninh"
+    ],
+    "answer": "A. Tăng an ninh"
+  },
+  {
+    "question": "Kỹ thuật Zero-day attack liên quan trực tiếp đến yếu tố nào sau đây?",
+    "options": [
+      "A. Khai thác lỗ hổng chưa được vá",
+      "B. Sử dụng mã hóa dữ liệu",
+      "C. Tấn công DDoS",
+      "D. Dò quét port"
+    ],
+    "answer": "A. Khai thác lỗ hổng chưa được vá"
+  },
+  {
+    "question": "Kỹ thuật lây nhiễm file thực thi (.exe, .com …) của virus sẽ được ghép vào file chủ bằng cách nối thêm, chèn giữa, điền vào khoảng trống, ghi đè… Thuộc vào nhóm kỹ thuật nào sau đây?",
+    "options": [
+      "A. Kỹ thuật lây nhiễm",
+      "B. Kỹ thuật định vị trên vùng nhớ",
+      "C. Kỹ thuật tối ưu",
+      "D. Kỹ thuật nguỵ trang"
+    ],
+    "answer": "A. Kỹ thuật lây nhiễm"
+  },
+  {
+    "question": "Giải pháp \"Security Information and Event Management\" (SIEM) đóng vai trò gì trong việc phát hiện xâm nhập?",
+    "options": [
+      "A. Chỉ là một tên gọi khác của NIDS.",
+      "B. Tập trung vào việc thu thập, tổng hợp, tương quan và phân tích dữ liệu log và sự kiện bảo mật từ nhiều nguồn khác nhau trong toàn bộ hệ thống để cung cấp cái nhìn tổng thể và phát hiện các mối đe dọa phức tạp.",
+      "C. Là một công cụ quét lỗ hổng tự động.",
+      "D. Chuyên mã hóa dữ liệu để ngăn chặn rò rỉ."
+    ],
+    "answer": "B. Tập trung vào việc thu thập, tổng hợp, tương quan và phân tích dữ liệu log và sự kiện bảo mật từ nhiều nguồn khác nhau trong toàn bộ hệ thống để cung cấp cái nhìn tổng thể và phát hiện các mối đe dọa phức tạp."
+  },
+  {
+    "question": "Nguyên tắc CIA trong an ninh mạng bao gồm những yếu tố nào?",
+    "options": [
+      "A. Confidentiality, Integrity, Availability",
+      "B. Control, Integrity, Availability",
+      "C. Confidentiality, Information, Authentication",
+      "D. Confidentiality, Identification, Authorization"
+    ],
+    "answer": "A. Confidentiality, Integrity, Availability"
+  },
+  {
+    "question": "Câu nào đúng về Hashed Message Authentication Code (HMAC):",
+    "options": [
+      "A. Mã hóa khóa và thông báo",
+      "B. Chỉ mã hóa khóa",
+      "C. Chỉ mã hóa tin nhắn",
+      "D. Chỉ mã hóa khóa DHE"
+    ],
+    "answer": "A. Mã hóa khóa và thông báo"
+  },
+  {
+    "question": "\"Supply Chain Attack\" (Tấn công chuỗi cung ứng) trong an toàn mạng là hình thức tấn công như thế nào?",
+    "options": [
+      "A. Tấn công trực tiếp vào hệ thống máy chủ chính của một công ty lớn.",
+      "B. Ngăn chặn việc vận chuyển hàng hóa vật lý của một công ty.",
+      "C. Xâm nhập vào một tổ chức thông qua việc khai thác các lỗ hổng trong phần mềm hoặc phần cứng của một nhà cung cấp bên thứ ba đáng tin cậy của tổ chức đó.",
+      "D. Gửi email lừa đảo đến các nhà cung cấp của một công ty."
+    ],
+    "answer": "C. Xâm nhập vào một tổ chức thông qua việc khai thác các lỗ hổng trong phần mềm hoặc phần cứng của một nhà cung cấp bên thứ ba đáng tin cậy của tổ chức đó."
+  },
+  {
+    "question": "\"Spyware\" được thiết kế chủ yếu cho mục đích gì?",
+    "options": [
+      "A. Phá hủy các tệp tin hệ thống quan trọng.",
+      "B. Thu thập bí mật thông tin về người dùng hoặc tổ chức mà họ không hề hay biết hoặc cho phép.",
+      "C. Làm chậm tốc độ kết nối Internet của người dùng.",
+      "D. Ngăn chặn người dùng truy cập vào các trang web diệt virus."
+    ],
+    "answer": "B. Thu thập bí mật thông tin về người dùng hoặc tổ chức mà họ không hề hay biết hoặc cho phép."
+  },
+  {
+    "question": "Kỹ thuật \"Password Spraying\" khác với Brute Force ở điểm nào?",
+    "options": [
+      "A. Chỉ thử một mật khẩu phổ biến trên nhiều tài khoản",
+      "B. Thử tất cả các mật khẩu có thể trên một tài khoản",
+      "C. Thử nhiều mật khẩu p",
+      "D. Không có đáp án"
+    ],
+    "answer": "A. Chỉ thử một mật khẩu phổ biến trên nhiều tài khoản"
+  },
+  {
+    "question": "\"Rootkit\" là loại mã độc đặc biệt nguy hiểm vì sao?",
+    "options": [
+      "A. Nó chỉ tấn công vào các thiết bị di động.",
+      "B. Nó được thiết kế để ẩn sâu vào hệ thống (thường ở cấp độ hệ điều hành hoặc firmware), che giấu sự hiện diện của chính nó và các mã độc khác, khiến việc phát hiện và loại bỏ trở nên rất khó khăn.",
+      "C. Nó luôn yêu cầu quyền quản trị cao nhất để cài đặt.",
+      "D. Nó chỉ lây lan qua các thiết bị USB."
+    ],
+    "answer": "B. Nó được thiết kế để ẩn sâu vào hệ thống (thường ở cấp độ hệ điều hành hoặc firmware), che giấu sự hiện diện của chính nó và các mã độc khác, khiến việc phát hiện và loại bỏ trở nên rất khó khăn."
+  },
+  {
+    "question": "Điều gì là duy nhất về tấn công cross-site scripting (XSS) so với các cuộc tấn công injection khác?",
+    "options": [
+      "A. XSS yêu cầu sử dụng trình duyệt.",
+      "B. Mã SQL được sử dụng trong một cuộc tấn công XSS",
+      "C. XSS không tấn công máy chủ ứng dụng web để ăn cắp hoặc làm hỏng thông tin của nó.",
+      "D. Tấn công XSS hiếm khi được sử dụng nữa so với các cuộc tấn công injection khác"
+    ],
+    "answer": "C. XSS không tấn công máy chủ ứng dụng web để ăn cắp hoặc làm hỏng thông tin của nó."
+  },
+  {
+    "question": "Khi lựa chọn giải pháp phát hiện và phản hồi điểm cuối (EDR - Endpoint Detection and Response), tổ chức nên ưu tiên yếu tố nào sau đây?",
+    "options": [
+      "A. Chỉ khả năng chặn mã độc dựa trên chữ ký.",
+      "B. Khả năng phát hiện các hành vi bất thường, điều tra mối đe dọa và hỗ trợ phản ứng nhanh chóng trên các thiết bị đầu cuối.",
+      "C. Giá thành rẻ nhất thị trường.",
+      "D. Giao diện người dùng có nhiều màu sắc bắt mắt."
+    ],
+    "answer": "B. Khả năng phát hiện các hành vi bất thường, điều tra mối đe dọa và hỗ trợ phản ứng nhanh chóng trên các thiết bị đầu cuối."
+  },
+  {
+    "question": "Kỹ thuật nào sau đây KHÔNG được sử dụng cho Virus",
+    "options": [
+      "A. Kỹ thuật thường trú",
+      "B. Kỹ thuật mã hoá/giải mã",
+      "C. Kỹ thuật nguỵ trang",
+      "D. Kỹ thuật sửa lỗi file"
+    ],
+    "answer": "D. Kỹ thuật sửa lỗi file"
+  },
+  {
+    "question": "“Availability” trong nguyên tắc CIA có nghĩa là:",
+    "options": [
+      "A. Thông tin phải luôn sẵn sàng để sử dụng",
+      "B. Thông tin chỉ có thể truy cập bởi người được ủy quyền.",
+      "C. Thông tin phải chính xác và không bị giả mạo",
+      "D. Thông tin được sao lưu thường xuyên"
+    ],
+    "answer": "A. Thông tin phải luôn sẵn sàng để sử dụng"
+  },
+  {
+    "question": "Yếu tố \"Confidentiality\" trong CIA nhằm mục tiêu gì?",
+    "options": [
+      "A. Bảo vệ thông tin khỏi sự truy cập trái phép.",
+      "B. Đảm bảo thông tin luôn chính xác",
+      "C. Đảm bảo thông tin luôn sẵn sàng",
+      "D. Ngăn chặn các lỗi kỹ thuật"
+    ],
+    "answer": "A. Bảo vệ thông tin khỏi sự truy cập trái phép."
+  },
+  {
+    "question": "Công cụ phân tích lỗ hổng ứng dụng web (Web Application Vulnerability Scanner) thường tập trung tìm kiếm các loại lỗ hổng nào?",
+    "options": [
+      "A. Lỗi phần cứng của máy chủ web.",
+      "B. Mật khẩu yếu của quản trị viên máy chủ.",
+      "C. Các lỗ hổng như SQL Injection, Cross-Site Scripting (XSS), và cấu hình sai bảo mật trên ứng dụng web.",
+      "D. Tốc độ tải trang chậm."
+    ],
+    "answer": "C. Các lỗ hổng như SQL Injection, Cross-Site Scripting (XSS), và cấu hình sai bảo mật trên ứng dụng web."
+  },
+  {
+    "question": "Tính chất nào sau đây không phải thuộc về Virus?",
+    "options": [
+      "A. Nhỏ gọn",
+      "B. Tương thích",
+      "C. Phá hoại",
+      "D. Nhân bản"
+    ],
+    "answer": "C. Phá hoại"
+  },
+  {
+    "question": "\"Proof of Concept\" (PoC) hoặc \"Pilot Test\" (Thử nghiệm thí điểm) đóng vai trò gì trong quá trình lựa chọn giải pháp an ninh mạng?",
+    "options": [
+      "A. Là bước cuối cùng sau khi đã ký hợp đồng mua giải pháp.",
+      "B. Cho phép tổ chức thử nghiệm giải pháp trong môi trường thực tế của mình với một quy mô giới hạn để đánh giá tính hiệu quả, khả năng tương thích và sự phù hợp trước khi đưa ra quyết định mua hàng cuối cùng.",
+      "C. Chỉ là một buổi thuyết trình bán hàng của nhà cung cấp.",
+      "D. Là việc kiểm tra xem nhà cung cấp có đủ năng lực tài chính không."
+    ],
+    "answer": "B. Cho phép tổ chức thử nghiệm giải pháp trong môi trường thực tế của mình với một quy mô giới hạn để đánh giá tính hiệu quả, khả năng tương thích và sự phù hợp trước khi đưa ra quyết định mua hàng cuối cùng."
+  },
+  {
+    "question": "Một hệ thống RAID rất hữu ích vì........",
+    "options": [
+      "Sự dụ phòng tốt cho dữ liệu khi gặp sự cố",
+      "Vì độ tin cậy của người dùng",
+      "Giúp cải thiện về tốc độ truy xuất dữ liệu",
+      "Tất cả các đáp án trên"
+    ],
+    "answer": "Tất cả các đáp án trên"
+  },
+  {
+    "question": "Yếu tố “Integrity” trong nguyên tắc CIA nhằm đảm bảo điều gì?",
+    "options": [
+      "A. Bảo mật thông tin",
+      "B. Tính sẵn sàng của thông tin",
+      "C. Xác thực người dùng.",
+      "D. Tính toàn vẹn, không bị thay đổi trái phép của thông tin"
+    ],
+    "answer": "D. Tính toàn vẹn, không bị thay đổi trái phép của thông tin"
+  },
+  {
+    "question": "Để có thể quản lý được các ổ đĩa có dung lượng lớn lên đến 16 PB, hệ điều hành sử dụng bảng FAT NTFS với bao nhiêu bít để định danh các Cluster ?",
+    "options": [
+      "24bit",
+      "64bit",
+      "1024bit",
+      "32bit"
+    ],
+    "answer": "64bit"
+  },
+  {
+    "question": "Lỗ hổng \"Side-Channel Attack\" khai thác thông tin từ đâu để phá vỡ một hệ thống mật mã?",
+    "options": [
+      "A. Từ các thuật toán mật mã yếu hoặc đã lỗi thời.",
+      "B. Từ các khóa mật mã được lưu trữ không an toàn.",
+      "C. Từ các thông tin rò rỉ trong quá trình triển khai vật lý của hệ thống mật mã, chẳng hạn như thời gian thực thi, mức tiêu thụ điện năng, hoặc bức xạ điện từ.",
+      "D. Từ các lỗi logic trong quá trình triển khai giao thức bắt tay (handshake) bảo mật."
+    ],
+    "answer": "C. Từ các thông tin rò rỉ trong quá trình triển khai vật lý của hệ thống mật mã, chẳng hạn như thời gian thực thi, mức tiêu thụ điện năng, hoặc bức xạ điện từ."
+  },
+  {
+    "question": "Boot virus phải phân phối một vùng nhớ riêng để lưu giữ chương trình virus bao gồm mã lệnh, biến, vùng đệm. Kỹ thuật nào được dùng trong việc này?",
+    "options": [
+      "A. Kỹ thuật thường trú",
+      "B. Kỹ thuật nguỵ trang",
+      "C. Kỹ thuật phá hoại",
+      "D. Kỹ thuật tối ưu"
+    ],
+    "answer": "A. Kỹ thuật thường trú"
+  },
+  {
+    "question": "Trong lĩnh vực an toàn mạng, \"Post-Quantum Cryptography\" (Mật mã hậu lượng tử) đang được nghiên cứu và phát triển để giải quyết vấn đề gì?",
+    "options": [
+      "A. Tăng tốc độ mã hóa dữ liệu hiện tại.",
+      "B. Bảo vệ dữ liệu khỏi bị giải mã bởi các máy tính lượng tử trong tương lai, vốn có khả năng phá vỡ các thuật toán mã hóa phổ biến hiện nay",
+      "C. Giảm chi phí triển khai các hệ thống mã hóa.",
+      "D. Tạo ra các thuật toán mã hóa không thể bị bẻ khóa bởi bất kỳ phương tiện nào."
+    ],
+    "answer": "B. Bảo vệ dữ liệu khỏi bị giải mã bởi các máy tính lượng tử trong tương lai, vốn có khả năng phá vỡ các thuật toán mã hóa phổ biến hiện nay"
+  },
+  {
+    "question": "Website của công ty cho phép người dùng nhập dữ liệu. Nhóm bảo mật cảnh báo nguy cơ bị tấn công SQL Injection. Biện pháp khắc phục phù hợp nhất là:",
+    "options": [
+      "A. Dùng HTTPS",
+      "B. Lọc IP truy cập",
+      "C. Thực hiện kiểm tra đầu vào và dùng truy vấn có tham số",
+      "D. Giới hạn băng thông upload hổ biến trên một tài khoản duy nhất Không sử dụng từ điển mật khẩu"
+    ],
+    "answer": "C. Thực hiện kiểm tra đầu vào và dùng truy vấn có tham số"
+  },
+  {
+    "question": "Một trong những thách thức lớn nhất của phương pháp phát hiện xâm nhập dựa trên bất thường là gì?",
+    "options": [
+      "A. Không thể phát hiện các cuộc tấn công sử dụng mã hóa.",
+      "B. Yêu cầu tài nguyên hệ thống (CPU, bộ nhớ) rất thấp.",
+      "C. Khó khăn trong việc xây dựng một \"baseline\" chính xác về hành vi bình thường và có thể tạo ra tỷ lệ báo động giả (false positives) cao nếu baseline không được định nghĩa tốt.",
+      "D. Chỉ hoạt động hiệu quả trên các mạng quy mô nhỏ."
+    ],
+    "answer": "C. Khó khăn trong việc xây dựng một \"baseline\" chính xác về hành vi bình thường và có thể tạo ra tỷ lệ báo động giả (false positives) cao nếu baseline không được định nghĩa tốt."
+  },
+  {
+    "question": "Cookie của bên thứ ba là gì?",
+    "options": [
+      "A. Là Cookie do một trang web khác với trang web bạn đang truy cập đặt.",
+      "B. Cookie được tạo bởi trang web đang được xem.",
+      "C. Không tồn tại cookie của bên thứ ba trên ứng dụng web.",
+      "D. Là một biến do lập trình viên đặt."
+    ],
+    "answer": "A. Là Cookie do một trang web khác với trang web bạn đang truy cập đặt."
+  },
+  {
+    "question": "Kích thước của phần tử MCB trong chế độ Protected Mode là:",
+    "options": [
+      "a. 16B",
+      "b. 32B",
+      "c. 8B",
+      "d. 4B"
+    ],
+    "answer": "a. 16B"
+  },
+  {
+    "question": "Để thực hiện cuộc tấn công Trojan-Backdoor. Hacker sẽ thực hiện",
+    "options": [
+      "A. Trojan Server được cài trên máy nạn nhân – Hacker điều khiển bằng Trojan Client",
+      "B. Hacker dùng Trojan Client, tấn công vào máy nạn nhân qua các port nhận được từ kỹ thuật Scanning",
+      "C. Hacker dùng Trojan Server, tấn công vào máy nạn nhân qua các port nhận đươc từ kỹ thuật Scanning",
+      "D. Trojan Client được cài trên máy nạn nhân – Hacker điều khiển bằng Trojan Server"
+    ],
+    "answer": "A. Trojan Server được cài trên máy nạn nhân – Hacker điều khiển bằng Trojan Client"
+  },
+  {
+    "question": "Nguyên tắc CIA trong an ninh mạng bao gồm những yếu tố nào?",
+    "options": [
+      "A. Confidentiality, Integrity, Availability",
+      "B. Control, Integrity, Availability",
+      "C. Confidentiality, Information, Authentication",
+      "D. Confidentiality, Identification, Authorization"
+    ],
+    "answer": "A. Confidentiality, Integrity, Availability"
+  },
+  {
+    "question": "Nguy cơ nào hiện nay được coi là phổ biến nhất đối với an toàn thông tin mạng?",
+    "options": [
+      "A. Virus máy tính",
+      "B. Tấn công từ chối dịch vụ (DDoS)",
+      "C. Tấn công phishing và mã độc tống tiền (ransomware)",
+      "D. Lỗi phần cứng máy tính"
+    ],
+    "answer": "C. Tấn công phishing và mã độc tống tiền (ransomware)"
+  },
+  {
+    "question": "Kỹ thuật Zero-day attack liên quan trực tiếp đến yếu tố nào sau đây?",
+    "options": [
+      "A. Khai thác lỗ hổng chưa được vá",
+      "B. Sử dụng mã hóa dữ liệu",
+      "C. Tấn công DDoS",
+      "D. Dò quét port"
+    ],
+    "answer": "A. Khai thác lỗ hổng chưa được vá"
+  },
+  {
+    "question": "Điều nào trong số này KHÔNG phải là lý do tại sao việc bảo mật các ứng dụng web phía máy chủ là khó?",
+    "options": [
+      "A. Các bộ vi xử lý trên máy khách nhỏ hơn trên các máy chủ web và do đó chúng dễ bảo vệ hơn",
+      "B. Mặc dù các thiết bị bảo mật mạng truyền thống có thể chặn các cuộc tấn công mạng truyền thống, chúng không thể luôn chặn các cuộc tấn công ứng dụng web. Nhiều cuộc tấn công ứng dụng web khai thác lỗ hổng chưa biết trước đó",
+      "C. Bằng cách thiết kế các ứng dụng web phía máy chủ động, chấp nhận đầu vào của người dùng có thể chứa mã độc",
+      "D. Khả năng tiếp cận của người dùng"
+    ],
+    "answer": "A. Các bộ vi xử lý trên máy khách nhỏ hơn trên các máy chủ web và do đó chúng dễ bảo vệ hơn"
+  },
+  {
+    "question": "Kỹ thuật nào sau đây KHÔNG được sử dụng cho Virus",
+    "options": [
+      "A. Kỹ thuật thường trú",
+      "B. Kỹ thuật mã hoá giải mã",
+      "C. Kỹ thuật nguy trang",
+      "D. Kỹ thuật sửa lỗi file"
+    ],
+    "answer": "D. Kỹ thuật sửa lỗi file"
+  },
+  {
+    "question": "Kỹ thuật lây nhiễm file thực thi (.exe, .com ...) của virus sẽ được ghép vào file chủ bằng cách nối thêm, chèn giữa, điền vào khoảng trống, ghi đè... Thuộc vào nhóm kỹ thuật nào sau đây?",
+    "options": [
+      "A. Kỹ thuật lây nhiễm",
+      "B. Kỹ thuật định vị trên vùng nhớ",
+      "C. Kỹ thuật tối ưu",
+      "D. Kỹ thuật nguy trang"
+    ],
+    "answer": "A. Kỹ thuật lây nhiễm"
+  },
+  {
+    "question": "Kỹ thuật \"Password Spraying\" khác với Brute Force ở điểm nào?",
+    "options": [
+      "A. Chỉ thử một mật khẩu phổ biến trên nhiều tài khoản",
+      "B. Thử tất cả các mật khẩu có thể trên một tài khoản",
+      "C. Thử nhiều mật khẩu p"
+    ],
+    "answer": "A. Chỉ thử một mật khẩu phổ biến trên nhiều tài khoản"
+  },
+  {
+    "question": "Website của công ty cho phép người dùng nhập dữ liệu. Nhóm bảo mật cảnh báo nguy cơ bị tấn công SQL Injection. Biện pháp khắc phục phù hợp nhất là:",
+    "options": [
+      "A. Dùng HTTPS",
+      "B. Lọc IP truy cập",
+      "C. Thực hiện kiểm tra đầu vào và dùng truy vấn có tham số",
+      "D. Giới hạn băng thông upload"
+    ],
+    "answer": "C. Thực hiện kiểm tra đầu vào và dùng truy vấn có tham số"
+  },
+  {
+    "question": "Hệ thống ghi nhận nhiều truy cập trái phép từ một địa chỉ IP nước ngoài vào máy chủ web. Anh/chị nên áp dụng giải pháp nào trước tiên?",
+    "options": [
+      "A. Cài lại hệ điều hành máy chủ",
+      "B. Cập nhật driver mạng",
+      "C. Cấu hình firewall chặn IP và kiểm tra lỗ hổng",
+      "D. Gỡ bỏ dịch vụ web"
+    ],
+    "answer": "C. Cấu hình firewall chặn IP và kiểm tra lỗ hổng"
+  },
+  {
+    "question": "Stateful Inspection firewall sử dụng cơ chế nào để quản lý lưu lượng mạng?",
+    "options": [
+      "A. Proxy server",
+      "B. Session table",
+      "C. Web cache",
+      "D. Log server"
+    ],
+    "answer": "B. Session table"
+  },
+  {
+    "question": "Hệ thống Phát hiện Xâm nhập dựa trên Máy chủ (HIDS - Host-based Intrusion Detection System) tập trung vào việc giám sát những gì?",
+    "options": [
+      "A. Chỉ giám sát lưu lượng mạng đến và đi từ máy chủ đó.",
+      "B. Các hoạt động và sự kiện xảy ra bên trong một máy chủ cụ thể, chẳng hạn như thay đổi tệp hệ thống, tiến trình đáng ngờ, và các tệp nhật ký.",
+      "C. Hoạt động của các thiết bị mạng như router và switch.",
+      "D. Các cuộc tấn công từ chối dịch vụ (DDoS) trên toàn mạng."
+    ],
+    "answer": "B. Các hoạt động và sự kiện xảy ra bên trong một máy chủ cụ thể, chẳng hạn như thay đổi tệp hệ thống, tiến trình đáng ngờ, và các tệp nhật ký."
+  },
+  {
+    "question": "Một trong những thách thức lớn nhất của phương pháp phát hiện xâm nhập dựa trên bất thường là gì?",
+    "options": [
+      "A. Không thể phát hiện các cuộc tấn công sử dụng mã hóa.",
+      "B. Yêu cầu tài nguyên hệ thống (CPU, bộ nhớ) rất thấp.",
+      "C. Khó khăn trong việc xây dựng một \"baseline\" chính xác về hành vi bình thường và có thể tạo ra tỷ lệ báo động giả (false positives) cao nếu baseline không được định nghĩa tốt.",
+      "D. Chỉ hoạt động hiệu quả trên các mạng quy mô nhỏ."
+    ],
+    "answer": "C. Khó khăn trong việc xây dựng một \"baseline\" chính xác về hành vi bình thường và có thể tạo ra tỷ lệ báo động giả (false positives) cao nếu baseline không được định nghĩa tốt."
+  },
+  {
+    "question": "Công cụ phân tích lỗ hổng ứng dụng web (Web Application Vulnerability Scanner) thường tập trung tìm kiếm các loại lỗ hổng nào?",
+    "options": [
+      "A. Lỗi phần cứng của máy chủ web.",
+      "B. Mật khẩu yếu của quản trị viên máy chủ.",
+      "C. Các lỗ hổng như SQL Injection, Cross-Site Scripting (XSS), và cấu hình sai bảo mật trên ứng dụng web.",
+      "D. Tốc độ tải trang chậm."
+    ],
+    "answer": "C. Các lỗ hổng như SQL Injection, Cross-Site Scripting (XSS), và cấu hình sai bảo mật trên ứng dụng web."
+  },
+  {
+    "question": "Công cụ \"Configuration Management Database\" (CMDB) và các công cụ kiểm tra tuân thủ cấu hình đóng vai trò gì trong việc giảm thiểu lỗ hổng?",
+    "options": [
+      "A. CMDB chỉ lưu trữ thông tin về phần cứng.",
+      "B. Chúng giúp duy trì một kho lưu trữ thông tin chính xác về tất cả các thành phần công nghệ thông tin (CIs) và mối quan hệ giữa chúng (CMDB), đồng thời đảm bảo rằng các hệ thống được cấu hình theo các tiêu chuẩn bảo mật và chính sách đã định, từ đó giảm thiểu các lỗ hổng do cấu hình sai.",
+      "C. Công cụ kiểm tra tuân thủ chỉ hoạt động với các hệ thống trên nền tảng đám mây.",
+      "D. Chúng chỉ dùng để theo dõi giấy phép phần mềm."
+    ],
+    "answer": "B. Chúng giúp duy trì một kho lưu trữ thông tin chính xác về tất cả các thành phần công nghệ thông tin (CIs) và mối quan hệ giữa chúng (CMDB), đồng thời đảm bảo rằng các hệ thống được cấu hình theo các tiêu chuẩn bảo mật và chính sách đã định, từ đó giảm thiểu các lỗ hổng do cấu hình sai."
+  },
+  {
+    "question": "\"Supply Chain Attack\" (Tấn công chuỗi cung ứng) trong an toàn mạng là hình thức tấn công như thế nào?",
+    "options": [
+      "A. Tấn công trực tiếp vào hệ thống máy chủ chính của một công ty lớn.",
+      "B. Ngăn chặn việc vận chuyển hàng hóa vật lý của một công ty.",
+      "C. Xâm nhập vào một tổ chức thông qua việc khai thác các lỗ hổng trong phần mềm hoặc phần cứng của một nhà cung cấp bên thứ ba đáng tin cậy của tổ chức đó.",
+      "D. Gửi email lừa đảo đến các nhà cung cấp của một công ty."
+    ],
+    "answer": "C. Xâm nhập vào một tổ chức thông qua việc khai thác các lỗ hổng trong phần mềm hoặc phần cứng của một nhà cung cấp bên thứ ba đáng tin cậy của tổ chức đó."
+  },
+  {
+    "question": "Trong lĩnh vực an toàn mạng, \"Post-Quantum Cryptography\" (Mật mã hậu lượng tử) đang được nghiên cứu và phát triển để giải quyết vấn đề gì?",
+    "options": [
+      "A. Tăng tốc độ mã hóa dữ liệu hiện tại.",
+      "B. Bảo vệ dữ liệu khỏi bị giải mã bởi các máy tính lượng tử trong tương lai, vốn có khả năng phá vỡ các thuật toán mã hóa phổ biến hiện nay",
+      "C. Giảm chi phí triển khai các hệ thống mã hóa.",
+      "D. Tạo ra các thuật toán mã hóa không thể bị bẻ khóa bởi bất kỳ phương tiện nào."
+    ],
+    "answer": "B. Bảo vệ dữ liệu khỏi bị giải mã bởi các máy tính lượng tử trong tương lai, vốn có khả năng phá vỡ các thuật toán mã hóa phổ biến hiện nay"
+  },
+  {
+    "question": "Khi lựa chọn giải pháp phát hiện và phản hồi điểm cuối (EDR - Endpoint Detection and Response), tổ chức nên ưu tiên yếu tố nào sau đây?",
+    "options": [
+      "A. Chỉ khả năng chặn mã độc dựa trên chữ ký.",
+      "B. Khả năng phát hiện các hành vi bất thường, điều tra mối đe dọa và hỗ trợ phản ứng nhanh chóng trên các thiết bị đầu cuối.",
+      "C. Giá thành rẻ nhất thị trường.",
+      "D. Giao diện người dùng có nhiều màu sắc bắt mắt."
+    ],
+    "answer": "B. Khả năng phát hiện các hành vi bất thường, điều tra mối đe dọa và hỗ trợ phản ứng nhanh chóng trên các thiết bị đầu cuối."
+  },
+  {
+    "question": "\"Proof of Concept\" (PoC) hoặc \"Pilot Test\" (Thử nghiệm thí điểm) đóng vai trò gì trong quá trình lựa chọn giải pháp an ninh mạng?",
+    "options": [
+      "A. Là bước cuối cùng sau khi đã ký hợp đồng mua giải pháp.",
+      "B. Cho phép tổ chức thử nghiệm giải pháp trong môi trường thực tế của mình với một quy mô giới hạn để đánh giá tính hiệu quả, khả năng tương thích và sự phù hợp trước khi đưa ra quyết định mua hàng cuối cùng.",
+      "C. Chỉ là một buổi thuyết trình bán hàng của nhà cung cấp.",
+      "D. Là việc kiểm tra xem nhà cung cấp có đủ năng lực tài chính không."
+    ],
+    "answer": "B. Cho phép tổ chức thử nghiệm giải pháp trong môi trường thực tế của mình với một quy mô giới hạn để đánh giá tính hiệu quả, khả năng tương thích và sự phù hợp trước khi đưa ra quyết định mua hàng cuối cùng."
+  },
+  {
+    "question": "Giải pháp \"Security Information and Event Management\" (SIEM) đóng vai trò gì trong việc phát hiện xâm nhập?",
+    "options": [
+      "A. Chỉ là một tên gọi khác của NIDS.",
+      "B. Tập trung vào việc thu thập, tổng hợp, tương quan và phân tích dữ liệu log và sự kiện bảo mật từ nhiều nguồn khác nhau trong toàn bộ hệ thống để cung cấp cái nhìn tổng thể và phát hiện các mối đe dọa phức tạp.",
+      "C. Là một công cụ quét lỗ hổng tự động.",
+      "D. Chuyên mã hóa dữ liệu để ngăn chặn rò rỉ."
+    ],
+    "answer": "B. Tập trung vào việc thu thập, tổng hợp, tương quan và phân tích dữ liệu log và sự kiện bảo mật từ nhiều nguồn khác nhau trong toàn bộ hệ thống để cung cấp cái nhìn tổng thể và phát hiện các mối đe dọa phức tạp."
+  },
+  {
+    "question": "IDS là viết tắt của cụm từ nào?",
+    "options": [
+      "a. Internal Detection System",
+      "b. Intrusion Detection System",
+      "c. Information Defense Service",
+      "d. Internet Data Security"
+    ],
+    "answer": "b. Intrusion Detection System"
+  },
+  {
+    "question": "IPS có chức năng chính là gì?",
+    "options": [
+      "a. Phát hiện xâm nhập",
+      "b. Chặn và ngăn ngừa tấn công",
+      "c. Quản lý người dùng mạng",
+      "d. Giám sát lưu lượng Internet"
+    ],
+    "answer": "b. Chặn và ngăn ngừa tấn công"
+  },
+  {
+    "question": "IDS hoạt động chủ yếu ở tầng nào của mô hình OSI?",
+    "options": [
+      "a. Tầng Vật lý",
+      "b. Tầng Mạng và Ứng dụng",
+      "c. Tầng Liên kết dữ liệu",
+      "d. Tầng Phiên"
+    ],
+    "answer": "b. Tầng Mạng và Ứng dụng"
+  },
+  {
+    "question": "Hệ thống IDS chỉ có khả năng:",
+    "options": [
+      "a. Phát hiện và cảnh báo",
+      "b. Tự động chặn gói tin",
+      "c. Xóa log tấn công",
+      "d. Chặn lưu lượng theo chính sách"
+    ],
+    "answer": "a. Phát hiện và cảnh báo"
+  },
+  {
+    "question": "Loại IDS nào giám sát trực tiếp gói tin trên mạng?",
+    "options": [
+      "a. HIDS (Host-based IDS)",
+      "b. NIDS (Network-based IDS)",
+      "c. PIDS (Perimeter IDS)",
+      "d. APIDS (Application Protocol IDS)"
+    ],
+    "answer": "b. NIDS (Network-based IDS)"
+  },
+  {
+    "question": "Ví dụ điển hình của IDS mã nguồn mở là:",
+    "options": [
+      "a. Snort",
+      "b. Wireshark",
+      "c. Nmap",
+      "d. Nessus"
+    ],
+    "answer": "a. Snort"
+  },
+  {
+    "question": "Trong phương pháp phát hiện signature-based, hệ thống dựa vào:",
+    "options": [
+      "a. Hành vi bất thường",
+      "b. So sánh với mẫu tấn công đã biết",
+      "c. Phân tích thống kê",
+      "d. Dữ liệu Al"
+    ],
+    "answer": "b. So sánh với mẫu tấn công đã biết"
+  },
+  {
+    "question": "Thành phần nào trong IDS chịu trách nhiệm sinh cảnh báo?",
+    "options": [
+      "a. Detection Engine",
+      "b. Sensor",
+      "c. Alert Module",
+      "d. Packet Decoder"
+    ],
+    "answer": "a. Detection Engine"
+  },
+  {
+    "question": "Phát hiện dựa trên bất thường (anomaly-based) có ưu điểm là:",
+    "options": [
+      "a. Không cần cập nhật chữ ký",
+      "b. Không phát hiện tấn công mới",
+      "c. Tốc độ xử lý nhanh hơn signature-based",
+      "d. Không tạo cảnh báo giả"
+    ],
+    "answer": "a. Không cần cập nhật chữ ký"
+  },
+  {
+    "question": "Nhược điểm lớn của IDS là gì?",
+    "options": [
+      "a. Không phát hiện được tấn công mạng nội bộ",
+      "b. Tạo cảnh báo giả dương (false positive)",
+      "c. Không tương thích với mạng LAN",
+      "d. Không hỗ trợ IPv6"
+    ],
+    "answer": "b. Tạo cảnh báo giả dương (false positive)"
+  },
+  {
+    "question": "Điểm khác biệt chính giữa IDS và IPS là:",
+    "options": [
+      "a. IDS chủ động chặn, IPS chỉ giám sát",
+      "b. IDS giám sát thụ động, IPS chủ động ngăn chặn",
+      "c. IDS và IPS giống nhau hoàn toàn",
+      "d. IDS hoạt động ở lớp 1, IPS ở lớp 7"
+    ],
+    "answer": "b. IDS giám sát thụ động, IPS chủ động ngăn chặn"
+  },
+  {
+    "question": "Khi IPS được triển khai inline, điều đó có nghĩa là gì?",
+    "options": [
+      "a. Hoạt động song song với đường truyền",
+      "b. Nằm trực tiếp trên luồng dữ liệu, có thể chặn gói tin",
+      "c. Hoạt động độc lập với mạng",
+      "d. Chỉ giám sát log máy chủ"
+    ],
+    "answer": "b. Nằm trực tiếp trên luồng dữ liệu, có thể chặn gói tin"
+  },
+  {
+    "question": "HIDS thường được cài đặt ở đâu?",
+    "options": [
+      "a. Trên tường lửa",
+      "b. Trên từng máy chủ hoặc thiết bị đầu cuối",
+      "c. Trên router",
+      "d. Trên gateway Internet"
+    ],
+    "answer": "b. Trên từng máy chủ hoặc thiết bị đầu cuối"
+  },
+  {
+    "question": "IDS phát hiện tấn công bằng cách nào?",
+    "options": [
+      "a. Phân tích lưu lượng, log, và hành vi hệ thống",
+      "b. Cập nhật hệ điều hành",
+      "c. Dò quét lỗ hổng bảo mật",
+      "d. Tạo tường lửa mới"
+    ],
+    "answer": "a. Phân tích lưu lượng, log, và hành vi hệ thống"
+  },
+  {
+    "question": "Khi nào nên triển khai kết hợp IDS và IPS?",
+    "options": [
+      "a. Khi cần vừa giám sát vừa phản ứng tự động",
+      "b. Khi chỉ cần cảnh báo",
+      "c. Khi mạng rất nhỏ",
+      "d. Khi không có firewall"
+    ],
+    "answer": "a. Khi cần vừa giám sát vừa phản ứng tự động"
+  },
+  {
+    "question": "Nếu IPS gây chậm mạng, nguyên nhân có thể là:",
+    "options": [
+      "a. Tốc độ xử lý gói tin thấp hoặc cấu hình rule sai",
+      "b. Đường truyền vật lý lỗi",
+      "c. DNS không phản hồi",
+      "d. Thiếu RAM trên máy client"
+    ],
+    "answer": "a. Tốc độ xử lý gói tin thấp hoặc cấu hình rule sai"
+  },
+  {
+    "question": "Một IDS phát hiện hành vi quét cổng từ địa chỉ IP 192.168.1.10. Biện pháp phản ứng hợp lý của quản trị viên là:",
+    "options": [
+      "a. Ngắt toàn bộ mạng",
+      "b. Cô lập IP này và phân tích log",
+      "c. Xóa log để tránh quá tải",
+      "d. Tắt IDS"
+    ],
+    "answer": "b. Cô lập IP này và phân tích log"
+  },
+  {
+    "question": "Khi thiết kế rule trong Snort để phát hiện tấn công brute-force SSH, yếu tố cần lưu ý là:",
+    "options": [
+      "a. Tần suất kết nối thất bại trong thời gian ngắn",
+      "b. Địa chỉ MAC của attacker",
+      "c. Dung lượng RAM hệ thống",
+      "d. Cổng 80 (HTTP)"
+    ],
+    "answer": "a. Tần suất kết nối thất bại trong thời gian ngắn"
+  },
+  {
+    "question": "Trong mô hình SOC, IDS/IPS cung cấp dữ liệu chủ yếu cho thành phần nào?",
+    "options": [
+      "a. SIEM",
+      "b. Firewall",
+      "c. Antivirus",
+      "d. Proxy"
+    ],
+    "answer": "a. SIEM"
+  },
+  {
+    "question": "Trong xu hướng hiện nay, IDS/IPS được tích hợp với AI để:",
+    "options": [
+      "a. Tự động cập nhật hệ điều hành",
+      "b. Tăng khả năng phát hiện hành vi bất thường chưa có mẫu",
+      "c. Tăng tốc độ truyền dữ liệu",
+      "d. Giảm chi phí phần cứng"
+    ],
+    "answer": "b. Tăng khả năng phát hiện hành vi bất thường chưa có mẫu"
+  },
+  {
+    "question": "Mục đích chính của tường lửa (Firewall) là gì?",
+    "options": [
+      "a) Phát hiện virus trong hệ thống",
+      "b) Kiểm soát lưu lượng mạng ra/vào theo chính sách",
+      "c) Mã hóa dữ liệu truyên qua mạng",
+      "d) Phát hiện xâm nhập"
+    ],
+    "answer": "b) Kiểm soát lưu lượng mạng ra/vào theo chính sách"
+  },
+  {
+    "question": "Firewall hoạt động ở tầng nào của mô hình OSI?",
+    "options": [
+      "a) Tầng vật lý",
+      "b) Tầng liên kết dữ liệu",
+      "c) Tầng mạng và tầng vận chuyển",
+      "d) Tầng ứng dụng"
+    ],
+    "answer": "c) Tầng mạng và tầng vận chuyển"
+  },
+  {
+    "question": "Loại tường lửa nào kiểm tra nội dung gói tin dựa trên trạng thái kết nối?",
+    "options": [
+      "a) Packet Filtering Firewall",
+      "b) Stateful Inspection Firewall",
+      "c) Application Gateway",
+      "d) NAT Firewall"
+    ],
+    "answer": "b) Stateful Inspection Firewall"
+  },
+  {
+    "question": "Một Proxy Firewall hoạt động chủ yếu ở tầng nào của mô hình OSI?",
+    "options": [
+      "a) Tầng mạng",
+      "b) Tầng vận chuyển",
+      "c) Tầng ứng dụng",
+      "d) Tầng vật lý"
+    ],
+    "answer": "c) Tầng ứng dụng"
+  },
+  {
+    "question": "Mục đích của việc NAT (Network Address Translation) trong Firewall là gì?",
+    "options": [
+      "a) Mã hóa lưu lượng mạng",
+      "b) Giấu địa chỉ IP nội bộ và chia sẻ kết nối Internet",
+      "c) Giảm độ trễ truyền dữ liệu",
+      "d) Phát hiện xâm nhập"
+    ],
+    "answer": "b) Giấu địa chỉ IP nội bộ và chia sẻ kết nối Internet"
+  },
+  {
+    "question": "Khi cấu hình Firewall, quy tắc nào nên được đặt cuối cùng trong danh sách rule?",
+    "options": [
+      "a) Allow all",
+      "b) Deny all",
+      "c) Allow specific port",
+      "d) Log only"
+    ],
+    "answer": "b) Deny all"
+  },
+  {
+    "question": "Tường lửa ngăn chặn hiệu quả nhất kiểu tấn công nào sau đây?",
+    "options": [
+      "a) Phishing",
+      "b) Port scanning",
+      "c) SQL Injection",
+      "d) DoS"
+    ],
+    "answer": "b) Port scanning"
+  },
+  {
+    "question": "Thiết bị nào sau đây có thể kết hợp chức năng của Firewall và IDS/IPS?",
+    "options": [
+      "a) Router",
+      "b) UTM (Unified Threat Management)",
+      "c) Switch Layer 2",
+      "d) Load Balancer"
+    ],
+    "answer": "b) UTM (Unified Threat Management)"
+  },
+  {
+    "question": "Trong firewall rule: ALLOW TCP FROM 192.168.1.0/24 TO ANY PORT 80. Quy tắc này có nghĩa là:",
+    "options": [
+      "a) Cho phép mọi lưu lượng đến 192.168.1.0/24 qua cổng 80",
+      "b) Chặn tất cả kết nối TCP từ 192.168.1.0/24",
+      "c) Cho phép máy trong mạng 192.168.1.0/24 truy cập web (port 80)",
+      "d) Cho phép tất cả giao thức UDP"
+    ],
+    "answer": "c) Cho phép máy trong mạng 192.168.1.0/24 truy cập web (port 80)"
+  },
+  {
+    "question": "Trong hệ thống mạng, DMZ (Demilitarized Zone) có vai trò gì?",
+    "options": [
+      "a) Vùng cách ly chứa các dịch vụ công cộng (Web, Mail, DNS Server)",
+      "b) Mạng nội bộ an toàn tuyệt đối",
+      "c) Khu vực dành cho sao lưu dữ liệu",
+      "d) Mạng dành cho thiết bị IoT"
+    ],
+    "answer": "a) Vùng cách ly chứa các dịch vụ công cộng (Web, Mail, DNS Server)"
+  },
+  {
+    "question": "Giao thức nào sau đây được xem là an toàn nhất trong các lựa chọn mã hóa WLAN hiện nay?",
+    "options": [
+      "a) WEP",
+      "b) WPA",
+      "c) WPA2",
+      "d) WPA3"
+    ],
+    "answer": "d) WPA3"
+  },
+  {
+    "question": "Giao thức WEP (Wired Equivalent Privacy) sử dụng thuật toán mã hóa nào?",
+    "options": [
+      "a) AES",
+      "b) TKIP",
+      "c) RC4",
+      "d) DES"
+    ],
+    "answer": "c) RC4"
+  },
+  {
+    "question": "Một điểm yếu lớn của WEP là gì?",
+    "options": [
+      "a) Mã hóa quá mạnh, gây chậm mạng",
+      "b) Không hỗ trợ xác thực người dùng",
+      "c) Sử dụng khóa tĩnh và IV ngắn",
+      "d) Không tương thích với chuẩn IEEE 802.11"
+    ],
+    "answer": "c) Sử dụng khóa tĩnh và IV ngắn"
+  },
+  {
+    "question": "WPA2 sử dụng chuẩn mã hóa nào để tăng cường bảo mật?",
+    "options": [
+      "a) RC4",
+      "b) AES (CCMP)",
+      "c) TKIP",
+      "d) DES"
+    ],
+    "answer": "b) AES (CCMP)"
+  },
+  {
+    "question": "Giao thức 802.1X có vai trò chính là gì trong bảo mật WLAN?",
+    "options": [
+      "a) Mã hóa dữ liệu truyền",
+      "b) Xác thực người dùng trước khi truy cập mạng",
+      "c) Kiểm tra chất lượng tín hiệu",
+      "d) Phân phối địa chỉ IP"
+    ],
+    "answer": "b) Xác thực người dùng trước khi truy cập mạng"
+  },
+  {
+    "question": "Một Access Point giả mạo (Rogue AP) thường được dùng để:",
+    "options": [
+      "a) Mở rộng vùng phủ sóng",
+      "b) Tăng tốc độ truyền dữ liệu",
+      "c) Đánh cắp thông tin người dùng",
+      "d) Hạn chế người dùng truy cập"
+    ],
+    "answer": "c) Đánh cắp thông tin người dùng"
+  },
+  {
+    "question": "Cơ chế MẠC Filtering trong WLAN có hạn chế gì?",
+    "options": [
+      "a) Dễ dàng bị vượt qua vì MAC có thể bị giả mạo",
+      "b) Không hoạt động với WPA3",
+      "c) Làm giảm tốc độ mạng đáng kể",
+      "d) Không hỗ trợ trong môi trường doanh nghiệp"
+    ],
+    "answer": "a) Dễ dàng bị vượt qua vì MAC có thể bị giả mạo"
+  },
+  {
+    "question": "SSID cloaking giúp tăng bảo mật WLAN bằng cách nào?",
+    "options": [
+      "a) Mã hóa dữ liệu mạnh hơn",
+      "b) Ẩn tên mạng để tránh bị phát hiện",
+      "c) Giới hạn số lượng người dùng truy cập",
+      "d) Xác thực hai yếu tố"
+    ],
+    "answer": "b) Ẩn tên mạng để tránh bị phát hiện"
+  },
+  {
+    "question": "Tấn công deauthentication trong WLAN nhằm mục đích gì?",
+    "options": [
+      "a) Làm người dùng bị ngắt kết nối để chiếm quyền truy cập",
+      "b) Tăng tốc độ mạng",
+      "c) Chặn tín hiệu Wi-Fi",
+      "d) Tăng băng thông"
+    ],
+    "answer": "a) Làm người dùng bị ngắt kết nối để chiếm quyền truy cập"
+  },
+  {
+    "question": "Khi triển khai WLAN trong doanh nghiệp, nên sử dụng chế độ bảo mật nào?",
+    "options": [
+      "a) WEP",
+      "b) WPA2-Personal",
+      "c) WPA3-Enterprise",
+      "d) Open (không mã hóa)"
+    ],
+    "answer": "c) WPA3-Enterprise"
+  }
+]
