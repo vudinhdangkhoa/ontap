@@ -159,3 +159,33 @@ main {
 #prev-btn:hover {
     background-color: #7f8c8d;
 }
+
+/* Modal kết quả */
+#modal-overlay.hidden { display: none; }
+#modal-overlay {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.45);
+    z-index: 1000;
+}
+#result-modal {
+    background: #fff;
+    padding: 22px 26px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+    max-width: 480px;
+    width: 90%;
+    text-align: center;
+}
+#result-modal h2 {
+    margin-top: 0;
+}
+.modal-actions {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

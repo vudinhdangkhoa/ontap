@@ -18,7 +18,6 @@
             <div id="score-container" style="display: none;">
                 <h2>số câu đúng</h2>
                 <p id="final-score"></p>
-                
             </div>
             <div id="question-card">
                 <h2 id="question-text"></h2>
@@ -27,8 +26,19 @@
             </div>
 
             <div id="navigation-bar">
-                <button id="prev-btn" class="nav-btn">⬅️ Trở lại</button>
                 <button id="next-btn" class="nav-btn">Câu tiếp ➡️</button>
+            </div>
+
+            <!-- Modal kết quả -->
+            <div id="modal-overlay" class="hidden">
+                <div id="result-modal" role="dialog" aria-modal="true">
+                    <h2>Kết quả</h2>
+                    <p id="modal-score-text"></p>
+                    <div class="modal-actions">
+                        <button id="restart-btn" class="nav-btn">Làm lại</button>
+                        <button id="close-modal-btn" class="nav-btn">Đóng</button>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -40,10 +50,14 @@
             const questionText = document.getElementById('question-text');
             const optionsContainer = document.getElementById('options-container');
             const feedback = document.getElementById('feedback');
-            const prevBtn = document.getElementById('prev-btn');
             const nextBtn = document.getElementById('next-btn');
             const scoreContainer = document.getElementById('score-container');
             const finalScore = document.getElementById('final-score');
+            // Modal elements
+            const modalOverlay = document.getElementById('modal-overlay');
+            const modalScoreText = document.getElementById('modal-score-text');
+            const restartBtn = document.getElementById('restart-btn');
+            const closeModalBtn = document.getElementById('close-modal-btn');
             // Biến trạng thái
             let allQuestions = [];
             let currentQuestionIndex = 0;
@@ -131,8 +145,6 @@
                     feedback.textContent = '✅ Chính xác!';
                     feedback.classList.add('correct');
                     correctAnswersCount++; // Tăng số câu trả lời đúng
-                    finalScore.textContent = `Bạn đã trả lời đúng ${correctAnswersCount}/${allQuestions.length} câu hỏi.`;
-                    scoreContainer.style.display = 'block';
                 } else {
                     selectedButton.classList.add('incorrect');
                     feedback.innerHTML = `❌ Sai. Đáp án đúng là: <strong>${correctAnswer}</strong>`;
@@ -140,21 +152,20 @@
                 }
 
                 feedback.style.display = 'block';
+
+                // Nếu là câu cuối cùng, hiện modal kết quả
+                if (currentQuestionIndex === allQuestions.length - 1) {
+                    showResultModal();
+                }
+
                 updateNavButtons(); // Cập nhật lại nút (để kích hoạt nút "Next")
             }
 
-            // Hàm cập nhật trạng thái các nút "Next" và "Prev"
+            // Hàm cập nhật trạng thái nút "Next"
             function updateNavButtons() {
-                // Nút "Trở lại"
-                if (currentQuestionIndex === 0) {
-                    prevBtn.style.visibility = 'hidden'; // Ẩn ở câu đầu tiên
-                } else {
-                    prevBtn.style.visibility = 'visible';
-                }
-
-                // Nút "Câu tiếp"
+                // Nút "Câu tiếp": ẩn ở câu cuối cùng (modal sẽ hiện kết quả)
                 if (currentQuestionIndex === allQuestions.length - 1) {
-                    nextBtn.style.visibility = 'hidden'; // Ẩn ở câu cuối cùng
+                    nextBtn.style.visibility = 'hidden';
                 } else {
                     nextBtn.style.visibility = 'visible';
                 }
@@ -163,19 +174,40 @@
                 nextBtn.disabled = !answered;
             }
 
-            // Gán sự kiện cho các nút điều hướng
-            prevBtn.addEventListener('click', () => {
-                if (currentQuestionIndex > 0) {
-                    currentQuestionIndex--;
-                    showQuestion(currentQuestionIndex);
-                }
-            });
-
+            // Gán sự kiện cho nút tiếp theo
             nextBtn.addEventListener('click', () => {
                 if (currentQuestionIndex < allQuestions.length - 1) {
                     currentQuestionIndex++;
                     showQuestion(currentQuestionIndex);
                 }
+            });
+
+            // Modal functions
+            function showResultModal() {
+                modalScoreText.textContent = `Bạn đã trả lời đúng ${correctAnswersCount} / ${allQuestions.length} câu hỏi.`;
+                modalOverlay.classList.remove('hidden');
+                modalOverlay.style.display = 'flex';
+            }
+
+            function hideResultModal() {
+                modalOverlay.classList.add('hidden');
+                modalOverlay.style.display = 'none';
+            }
+
+            // Restart quiz
+            function restartQuiz() {
+                correctAnswersCount = 0;
+                currentQuestionIndex = 0;
+                hideResultModal();
+                showQuestion(currentQuestionIndex);
+            }
+
+            closeModalBtn.addEventListener('click', () => {
+                hideResultModal();
+            });
+
+            restartBtn.addEventListener('click', () => {
+                restartQuiz();
             });
         });
     </script>
