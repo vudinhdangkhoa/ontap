@@ -467,7 +467,7 @@
       "C. Đảm bảo thông tin luôn sẵn sàng",
       "D. Ngăn chặn các lỗi kỹ thuật"
     ],
-    "answer": "A. Bảo vệ thông tin khỏi sự truy cập trái phép."
+    "answer":  "B. Đảm bảo thông tin luôn chính xác"
   },
   {
     "question": "Công cụ phân tích lỗ hổng ứng dụng web (Web Application Vulnerability Scanner) thường tập trung tìm kiếm các loại lỗ hổng nào?",
@@ -507,7 +507,7 @@
       "Giúp cải thiện về tốc độ truy xuất dữ liệu",
       "Tất cả các đáp án trên"
     ],
-    "answer": "Tất cả các đáp án trên"
+    "answer": "Sự dụ phòng tốt cho dữ liệu khi gặp sự cố"
   },
   {
     "question": "Yếu tố “Integrity” trong nguyên tắc CIA nhằm đảm bảo điều gì?",
