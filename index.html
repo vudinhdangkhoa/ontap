@@ -132,7 +132,7 @@
                     feedback.classList.add('correct');
                     correctAnswersCount++; // Tăng số câu trả lời đúng
                     finalScore.textContent = `Bạn đã trả lời đúng ${correctAnswersCount}/${allQuestions.length} câu hỏi.`;
-
+                    scoreContainer.style.display = 'block';
                 } else {
                     selectedButton.classList.add('incorrect');
                     feedback.innerHTML = `❌ Sai. Đáp án đúng là: <strong>${correctAnswer}</strong>`;
