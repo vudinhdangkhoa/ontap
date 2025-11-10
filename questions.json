@@ -167,7 +167,7 @@
       "C. Tràn bộ đệm",
       "D. Chèn câu truy vấn SQL"
     ],
-    "answer": "D. Chèn câu truy vấn SQL"
+    "answer": "A. Từ chối dịch vụ (DoS)"
   },
   {
     "question": "\"Mã độc\" (Malware) là thuật ngữ chung để chỉ điều gì?",
@@ -257,7 +257,7 @@
       "c. IBM OS",
       "d. Cả 3 đều đúng."
     ],
-    "answer": "c. IBM OS"
+    "answer": "d. Cả 3 đều đúng."
   },
   {
     "question": "Key Logger Attack là gì? Chọn ý sai",
@@ -307,7 +307,7 @@
       "c. Bộ nhớ, bộ xử lí và các thiết bị vào ra.",
       "d. Cả 3 đều sai."
     ],
-    "answer": "c. Bộ nhớ, bộ xử lí và các thiết bị vào ra."
+    "answer": "d. Cả 3 đều sai."
   },
   {
     "question": "Kỹ thuật Zero-day attack liên quan trực tiếp đến yếu tố nào sau đây?",
